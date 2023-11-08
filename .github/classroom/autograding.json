@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Task 1: Who Killed Aunt Agatha?",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'T1WhoKilledAgathaTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Task 2: Math Puzzle",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'T2MathPuzzleTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 3: PC Configuration",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'T3PcConfigurationTest' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "All tests",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test",
+      "input": "",
+      "output": "",
+      "comparison": "excluded",
+      "timeout": 5,
+      "points": 0
+    }
+  ]
+}
