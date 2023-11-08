@@ -29,8 +29,8 @@ jobs:
       
       - name: Commit Puzzle 
         run: |
-          git config --local user.email "soaibuzzaman@uni-weimar.de"
-          git config --local user.name "Soaib"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add 'puzzle.md'
           git add 'README.md'
           git commit -m "Puzzle generated" || exit 0
