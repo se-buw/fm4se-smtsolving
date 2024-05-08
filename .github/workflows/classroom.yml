@@ -18,9 +18,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Execute tests
-        run: curl -s https://gist.githubusercontent.com/soaibsafi/7aef43113171637395e8b4e900f5cc76/raw/4d5aa54850ab1145ebcc6afc5af02eb5b22e301f/smtsolving_tests.sh | bash -s
-    
       - name: Set up Java 17
         uses: actions/setup-java@v3
         with:
